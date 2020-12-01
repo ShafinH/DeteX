@@ -5,4 +5,4 @@ Improving the medical industry during the pandemic.
   
   Learn More: <a href="https://devpost.com/software/test-7dv4cg" target="_blank">https://devpost.com/software/test-7dv4cg<a/>
   
-  <h2>NOTE: "Access-Control-Allow-Origin" must be allowed or the app will NOT work (even in the hosted link)</h2>
+  <h4>NOTE: "Access-Control-Allow-Origin" must be allowed or the app will NOT work (even in the hosted link) click <a href="https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en">here</a> to enable</h4>
