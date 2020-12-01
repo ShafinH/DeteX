@@ -8,7 +8,7 @@ export default {
     map: null,
     request: {},
   }),
-
+/*
   mounted() {
     var map = this.map;
     var center = new window.google.maps.LatLng(37.268108, -122.019447);
@@ -32,8 +32,8 @@ export default {
         position: place.geometry.location,
       });
     }
-  },
-};
+  }, */
+}; 
 </script>
 
 <style scoped>
