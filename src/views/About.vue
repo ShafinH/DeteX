@@ -11,7 +11,8 @@
  <div class="nav-item3">Symptoms</div>
  </router-link> -->
 
-
+ <img :src="require('@/assets/Footer.png')" class="footer">
+ 
   <div class="detex">DeteX</div>
 
   <div class="caption">
@@ -33,7 +34,7 @@
   <img :src="require('@/assets/home-image.png')" class="home-image"/>
   <!--<div class="footer"></div>-->
 
-  <img :src="require('@/assets/Footer.png')" class="footer">
+ 
   
 </template>
 
