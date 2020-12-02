@@ -2,9 +2,8 @@
   <div id="app">
     <Top-Header /> 
     <br />
-    <div style="padding-bottom: 100px;"></div>
-    <hr style="padding-bottom: 15px">
-    <router-view />
+    <div style="padding-bottom: 150px;"></div>
+    <router-view style=""/>
   </div>
 </template>
 

@@ -30,7 +30,7 @@ export default {
 
 <style scoped>
 #map {
-  margin-top: 9%;
+  margin-top: 3%;
   margin-left: 17%;
   height: 600px;
   width: 1000px;

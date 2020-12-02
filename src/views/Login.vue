@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-top: 8%">
+  <div style="margin-top: 5%">
     <div v-if="error" class="erorr">
       {{ error.message }}
     </div>
