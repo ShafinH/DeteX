@@ -1,4 +1,4 @@
-<template>
+<template> <!-- 
   <nav class="navbar stick-top navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#" style="margin-right: 125px">Name</a>
 
@@ -33,7 +33,36 @@
         >
       </button>
     </div>
-  </nav>
+  </nav> -->
+
+  <div class="nav"> 
+
+    <router-link to="/"> <img :src="require('@/assets/Logo-home.png')" class="home-logo"/></router-link>
+
+    <router-link to="/diagnose" class="nav-item0-box"><div class="nav-item0">Diagnose</div></router-link>
+
+    <router-link to="/past_diagnoses" class="nav-item1-box"><div class="nav-item1">Past Diagnose</div></router-link>
+
+    <router-link to="/symptoms" class="nav-item2-box"><div class="nav-item2">Symptoms</div></router-link>
+
+    <router-link to="/map" class="nav-item3-box">
+    <div class="nav-item3">Map</div>
+    </router-link>
+
+    <button v-if="loggedIn" class="btn text-white" @click="signOut">
+        Sign Out
+      </button>
+      <button v-else class="btn text-white" type="button" @click="oneOrTwo">
+        <router-link class="text-white" to="/login" v-if="loginOrRegister == true"
+          >Sign In / Register</router-link
+        >
+        <router-link v-else class="text-white" to="/register"
+          >Sign In / Register</router-link
+        >
+      </button>
+
+  </div>
+ 
 </template>
     
 <script>
@@ -82,20 +111,27 @@ export default {
 </script>
 
 <style  scoped>
+/*
 * {
   font-family: "Poppins", sans-serif;
-}
-.navbar-nav a.router-link-exact-active {
+} */
+.nav a.router-link-exact-active {
   color: #42b983;
 }
 
 .btn {
-  background-color: #42b983;
+  background: #169467;
+  position: absolute;
+  left: 1360px;
+  top: 63px;
+  font-size: 18px;
 }
 .btn:hover {
   background: rgb(30, 126, 52);
-}
+} 
+
 #router-link {
   text-decoration: none;
 }
+
 </style>

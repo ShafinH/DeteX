@@ -1,6 +1,6 @@
 <template>
   <!-- eslint-disable-next-line vue/max-attributes-per-line -->
-  <div style="margin-top: 12%">
+  <div style="margin-top: 8%">
     <div v-if="error" class="erorr">
       {{ error.message }}
     </div>
@@ -21,7 +21,7 @@
       <br />
       <span
         >Already have an account? Click here to
-        <router-link to="/">login</router-link></span
+        <router-link to="/login">login</router-link></span
       >
     </form>
   </div>

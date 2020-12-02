@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <Top-Header />
+    <Top-Header /> 
     <br />
+    <div style="padding-bottom: 100px;"></div>
+    <hr style="padding-bottom: 15px">
     <router-view />
   </div>
 </template>

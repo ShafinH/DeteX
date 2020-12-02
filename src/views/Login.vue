@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-top: 12%">
+  <div style="margin-top: 8%">
     <div v-if="error" class="erorr">
       {{ error.message }}
     </div>
@@ -65,7 +65,7 @@ input {
   width: 400px;
   padding: 30px;
   margin: 20px;
-  font-size: 21px;
+  font-size: 18px;
 }
 .btn {
   width: 200px;

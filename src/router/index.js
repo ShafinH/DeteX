@@ -5,15 +5,21 @@ import Diagnose from "../views/Diagnose.vue"
 import Diagnoses from "../views/Diagnoses.vue"
 import Symptoms from "../views/Symptoms.vue"
 import Map from "../views/Map.vue"
+import About from "../views/About.vue"
 
 import firebase from 'firebase/app'
 import 'firebase/auth'
 
 const routes = [
   {
-    path: "/",
+    path: "/login",
     name: "Login",
     component: Login
+  },
+  {
+    path: "/",
+    name: "About",
+    component: About
   },
   {
     path: "/register",
@@ -53,7 +59,7 @@ router.beforeEach((to, from, next) => {
   const requiresAuth = to.matched.some(record => record.meta.requiresAuth)
   const isAuthenticated = firebase.auth().currentUser;
   if (requiresAuth && !isAuthenticated) {
-    next("/");
+    next("/login");
   } else {
     next();
   }
