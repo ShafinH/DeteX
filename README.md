@@ -1,5 +1,5 @@
 # DeteX
-Improving the medical industry during the pandemic. 
+Improving the medical industry during the pandemic with machine learning. 
 
 <b>Sponsor Prize at MLH 2021 Season GBH<b/>
   
